@@ -71,9 +71,11 @@ public class Spielwiese {
 			}
 			break;
 		}
-		String input = JOptionPane.showInputDialog("Neuen Auftrag ausführen? (ja nein)");
+		System.out.println("Neuen Auftrag ausführen? (ja nein)");
+		String input = scanner.next();
 		if (input != null && input.equals("ja")) {
 			workMenu(herde);
+			scanner.reset();
 		}
 		System.exit(1);
 	}

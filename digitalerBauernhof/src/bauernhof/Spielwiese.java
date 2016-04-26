@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 public class Spielwiese {
 	private static Scanner scanner = new Scanner(System.in);
 
